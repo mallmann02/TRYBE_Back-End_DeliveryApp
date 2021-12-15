@@ -14,11 +14,7 @@
     "dev": "./scripts/prepare-for-dev.sh",
     "dev:prestart": "./scripts/prestart-dev.sh",
     "db:reset": "./scripts/reset-db-dev.sh",
-    "db:reset:debug": "./scripts/reset-db-dev-debug.sh",
-    "test": "jest --runInBand --detectOpenHandles --forceExit --verbose",
-    "test:dev": "NODE_ENV=development npm run jest -- --runInBand --detectOpenHandles --forceExit --verbose",
-    "test:dev:open": "NODE_ENV=development HEADLESS=false npm run test:dev",
-    "test:dev:report": "./__tests__/reports/generate.sh"
+    "db:reset:debug": "./scripts/reset-db-dev-debug.sh"
   },
   "repository": {
     "type": "git",
